@@ -1,0 +1,20 @@
+[
+    {
+        "time": "10:50",
+        "script": "READ_POCKET"
+    },
+    {
+        "time": "10:50",
+        "script": "POST_TWITTER",
+        "account": "daw"
+    },
+    {
+        "time": "10:50",
+        "script": "READ_TWITTER"
+    },
+    {
+        "time": "10:50",
+        "script": "POST_TELEGRAM",
+        "account": "daw"
+    }
+]

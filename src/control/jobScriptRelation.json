@@ -1,0 +1,6 @@
+{
+    "READ_POCKET": "actions/readPocket.py",
+    "POST_TWITER": "actions/postTwitterr.py",
+    "READ_TWITTER": "actions/readTwitter.py",
+    "POST_TELEGRAM": "actions/postTelegram.py"
+}
