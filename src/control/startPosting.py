@@ -28,9 +28,7 @@ def main():
         print('nombreSript.py')
         exit()
     tareas_scripts = get_tareas_scripts()
-    tareas_scripts.append({
-        'REESTART_POSTING': 'src/control/startPosting.py'
-    })
+    tareas_scripts['REESTART_POSTING'] = 'src/control/startPosting.py'
     
     tareas = get_tareas()
     tareas.append({

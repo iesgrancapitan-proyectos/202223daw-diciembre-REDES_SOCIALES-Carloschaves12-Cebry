@@ -1,1 +1,6 @@
- for i in `atq | awk '{print $1}'`;do atrm $i;done
+import os
+
+command = 'atrm $(atq | cut -f1)'
+
+print (command)
+os.system(command)
